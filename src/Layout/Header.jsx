@@ -15,7 +15,7 @@ export const SiteHeader = () => {
     return (
         <>
             <header className={window.localStorage.getItem("mode") === "true" ? "bg-blue-gray-900 " : "shadow-lg bg-white"}>
-                <div className="container mx-auto">
+                <div className="container w-[1450px] h-[auto] mx-auto">
                     <div className="header-inner">
                         <div className="header-box">
                             <Link>

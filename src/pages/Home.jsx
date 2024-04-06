@@ -211,7 +211,7 @@ export const HomePage = () => {
                             )
                         })}
                     </Carousel>
-                    <div className="tovars-box">
+                    <div className="tovars-box mb-8">
                         {
                             tovarData.map((item) => {
                                 

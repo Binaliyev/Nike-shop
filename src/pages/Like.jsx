@@ -188,7 +188,7 @@ export const LikePage = () => {
                             </DialogFooter>
                         </form>
                     </Dialog>
-                    <div className="like-card-box flex items-center justify-between flex-wrap mx-auto">
+                    <div className="like-card-box flex items-center justify-between mb-8 flex-wrap mx-auto overflow-scroll h-[35rem] ">
                         {likeData?.map((like) => {
                             if (like && like.data.userId === window.localStorage.getItem("userId")) {
                                 return (

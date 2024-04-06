@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom"
 import siteLogolihgt from "../assets/imgs/Nike,_Inc.-Nike-White-Logo.wine.svg"
-import siteLogoDark from "../assets/imgs/Nike,_Inc.-Nike-Logo.wine.svg"
 import telegram from "../assets/icons/Telegram_(software)-Logo.wine.svg"
 import twitter from "../assets/icons/Twitter-Logo.wine.svg"
 import youtube from "../assets/icons/YouTube-Icon-Almost-Black-Logo.wine.svg"
@@ -8,8 +7,8 @@ import { Typography } from "@material-tailwind/react"
 export const Footer = () => {
     return (
         <>
-            <footer className="w-[100%] h-[20rem] bg-blue-900 mt-[7rem] bottom-0 relative">
-                <div className="container">
+            <footer className="w-[100%] h-[20rem] bg-blue-900">
+                <div className="container w-[1450px] h-[auto] mx-auto">
                     <div className="footer-inner">
                         <Link>
                             <img src={siteLogolihgt} alt="site-logo" className="w-[25rem] h-[15rem] mx-auto logo " />

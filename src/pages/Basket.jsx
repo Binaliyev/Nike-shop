@@ -24,7 +24,7 @@ export const BasketPage = () => {
     return (
         <Main>
             <div className="hero-inner mt-[10rem]">
-                <div className="basket-box flex items-center justify-between overflow-scroll flex-wrap">
+                <div className="basket-box flex items-center justify-between overflow-scroll flex-wrap h-[35rem]">
                     {
                         basketData.map((item) => {
                             // let mounthPrice = Math.round(Number(item.product_term_payment / 30))

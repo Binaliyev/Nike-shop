@@ -215,7 +215,7 @@ export const SettingsPage = () => {
                                 }
                             })}
                             <Typography variant="h3" color="blue">{data.username}</Typography>
-                            <Typography color="red" variant="h6" className="ml-5 w-[25rem] mx-auto" >Ogohlantiramiz rasm ni edit qilish dan oldin rasmni o'chiring, rasmni o'chirish uchun uning ustiga bosing</Typography>
+                            <Typography color="red" variant="h6" className="ml-5 w-[25rem] mx-auto error-text" >Ogohlantiramiz rasm ni edit qilish dan oldin rasmni o'chiring, rasmni o'chirish uchun uning ustiga bosing</Typography>
                         </div>
                         <Card className={window.localStorage.getItem("mode") === "true" ? " bg-blue-gray-900 mx-auto w-[28rem] acount-card" : "mx-auto w-[28rem] acount-card"}>
                             {/* className={window.localStorage.getItem("mode") === "true" ? " bg-blue-gray-900 mx-auto w-[28rem]" : "mx-auto w-[28rem]"} */}

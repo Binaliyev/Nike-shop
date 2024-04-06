@@ -26,72 +26,55 @@
 }
 
 @media only screen and (max-width: 400px) {
-    header{
-        width: 100%;
-        height: 7rem;
-        position: fixed;
-        top: 0;
-        z-index: 99999999;
+    .container {
+        width: 400px;
+        height: auto;
+        margin: auto;
     }
-    .tovars-box,
-    .header-box,
-    .footer-inner,
-    .basket-box,
-    .like-card-box,
-    .settings-box,
-    .tovars-info-box {
-        width: 25rem;
+    .tovars-corusel, .tovars-corusel img {
+        display: none;
     }
-    .footer-carusel, .info-text-box{
-        margin-left: 1rem;
-        margin-right: 1rem;
-        margin-top: 1rem;
-    }
-    .like-card-box{
-       margin: 0;
-    }
-    .acount-card,.footer-carusel, .info-text-box{
-        width: 23rem;
-    }
-    .spendDiall{
+    .acount-card, .spendDiall{
         width: 20rem;
+    }
+    .tovars-info-box, .error-text, .utels-box{
+        width: 23rem;
+        display: block;
+        margin: auto;
+
+    }
+    .info-carusel, .info-carusel img{
+        width: 23rem;
+        height: 23rem;
+        margin-bottom: 2rem;
+
+    }
+    footer{
+        position: relative;
+        bottom: 0;
     }
     .logo{
         width: 15rem;
         height: 10rem;
-    }
-    .tovars-corusel {
-        width: 22rem;
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
-
+        margin: auto;
     }
     .text-icons-box {
         width: 9rem;
         display: block;
         margin: auto;
     }
-
-    .header-link,
-    .header-link svg {
-        display: none;
+    .basket-box, .like-card-box{
+        height: 35.6rem;
     }
-
-    .menu-list {
-        display: block;
+    .basket-box, .like-card-box::-webkit-scrollbar{
+        background: transparent;
     }
-
-    .dialog-body {
-        width: 21rem;
-        margin: auto;
-    }
-    footer{
-        position: fixed;
-        bottom: 0;
-    }
+   
+    /*  */
+   
 }
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -104,13 +87,6 @@ header {
     top: 0;
     z-index: 99999999;
 }
-
-.container {
-    width: 1450px;
-    height: auto;
-    margin: auto;
-}
-
 .header-ul {
     width: 28%;
     display: flex;
@@ -125,7 +101,6 @@ header {
     align-items: center;
     justify-content: space-between;
 }
-
 .header-link:hover svg {
     border-bottom: 3px solid #0288d1;
     transform: translateY(-5px);
@@ -167,4 +142,7 @@ header {
 
 .thoughts-link {
     color: #fff;
+}
+.basket-box, .like-card-box::-webkit-scrollbar{
+    background: transparent;
 }

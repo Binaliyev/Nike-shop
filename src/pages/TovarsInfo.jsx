@@ -204,7 +204,7 @@ export const TovarsInfoPage = () => {
                     <div className="tovars-info-box w-[80rem]">
                         <div className="corusel-box">
                             <Carousel
-                                className="rounded-xl w-[33rem] h-[33rem] drop-shadow-2xl footer-carusel"
+                                className="rounded-xl w-[33rem] h-[33rem] drop-shadow-2xl info-carusel"
                                 prevArrow={({ handlePrev }) => (
                                     <Button
                                         variant="gradient"

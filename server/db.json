@@ -1,5 +1,12 @@
 {
-  "users": [],
+  "users": [
+    {
+      "username": "Binali",
+      "email": "binali@gmail.com",
+      "password": "$2a$10$RDUXmvzqvLxzLAYAhd1faO57QnRlKTuedA6M3XcOJYxgu5Ecbmy8i",
+      "id": 1
+    }
+  ],
   "thoughts": [],
   "purchase": [],
   "userIMG": [],
